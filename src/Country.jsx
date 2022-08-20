@@ -23,7 +23,7 @@ const Country = ({ name, population, capital, flagImg, map }) => {
       <form action={map}>
         <input
           type="submit"
-          value="Go to Google"
+          value="Google Maps"
           formTarget="_blank"
           className="button"
         />
